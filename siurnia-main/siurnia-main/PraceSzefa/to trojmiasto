@@ -1,0 +1,36 @@
+4.1
+
+// 1. Utwórz zmienną z wartością boolowską.
+let isSunny = true;
+
+// 2. Wartość tej zmiennej wyświetl w konsoli.
+console.log("Czy jest słonecznie?", isSunny);
+
+// 3. Sprawdź, czy zmienna ma wartość true.
+if (isSunny) {
+    console.log("Dzisiaj jest słonecznie, mogę iść na spacer.");
+}
+
+// 4. Dodaj kolejną konstrukcję if ze znakiem ! przed nazwą zmiennej.
+if (!isSunny) {
+    console.log("Dzisiaj nie jest słonecznie, zostań w domu.");
+} else {
+    console.log("Dzisiaj jest słonecznie, więc można iść na spacer.");
+}
+
+// 5. Zmień wartość zmiennej na przeciwną.
+isSunny = false;
+
+// Sprawdź ponownie wartość zmiennej.
+console.log("Czy jest słonecznie?", isSunny);
+
+// Znowu sprawdź, czy zmienna ma wartość true.
+if (isSunny) {
+    console.log("Dzisiaj jest słonecznie, mogę iść na spacer.");
+} else {
+    console.log("Dzisiaj nie jest słonecznie, zostań w domu.");
+}
+
+// I ponownie z użyciem !.
+if (!isSunny) {
+    console.log("Dzisiaj nie jest słonecznie, więc lepiej zostać w domu.");

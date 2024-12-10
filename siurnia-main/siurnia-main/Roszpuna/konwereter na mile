@@ -1,0 +1,8 @@
+
+let miles = 10; 
+
+
+let kilometers = miles * 1.60934;
+
+
+console.log(miles + " mil to " + kilometers.toFixed(2) + " kilometrów.");

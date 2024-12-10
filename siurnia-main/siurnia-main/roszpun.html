@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+</head>
+<body>
+
+    <h1>Formularz</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label for="imie">Imię:</label></td>
+                <td><input type="text" id="imie" name="imie" required></td>
+            </tr>
+            <tr>
+                <td><label for="nazwisko">Nazwisko:</label></td>
+                <td><input type="text" id="nazwisko" name="nazwisko" required></td>
+            </tr>
+            <tr>
+                <td>Płeć:</td>
+                <td>
+                    <input type="radio" id="mezczyzna" name="plec" value="mezczyzna" required>
+                    <label for="mezczyzna">Mężczyzna</label>
+                    <input type="radio" id="kobieta" name="plec" value="kobieta" required>
+                    <label for="kobieta">Kobieta</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="zespol">Ulubiony zespół:</label></td>
+                <td>
+                    <select id="zespol" name="zespol">
+                        <option value="zespol1">Zespół 1</option>
+                        <option value="zespol2">Zespół 2</option>
+                        <option value="zespol3">Zespół 3</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Wyślij">
+    </form>
+
+</body>
+</html>
