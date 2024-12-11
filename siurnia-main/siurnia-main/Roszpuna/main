@@ -1,2 +1,4 @@
-![1733906427682.jpg](https://github.com/user-attachments/assets/f9055dc7-db5d-4972-b856-90311af24e29)
-
+arr8=[1,2,3];
+arr16=[arr8,arr8,arr8];
+arrT = arr16[2][2];
+arrY = arr16[1][1];
