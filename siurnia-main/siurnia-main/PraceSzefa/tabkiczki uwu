@@ -2,3 +2,5 @@ arr8=[1,2,3];
 arr16=[arr8,arr8,arr8];
 arrT = arr16[2][2];
 arrY = arr16[1][1];
+
+jest zrobione 🫡
