@@ -1,0 +1,87 @@
+
+
+Rozdział 1: Rozpoczęcie pracy z JavaScriptem
+
+Ćwiczenia praktyczne:
+
+1. 4 + 10 → Wynik: 14.
+
+
+2. Wyświetlenie w konsoli: console.log("Laurence"); → Wynik: Laurence.
+
+
+
+Sprawdzian umiejętności:
+
+1. Poprawna metoda załączenia pliku JS: <script src="myJS.js"></script>.
+
+
+
+
+
+
+
+Rozdział 2: Podstawy JavaScriptu
+
+Ćwiczenia praktyczne:
+
+Użycie typeof do sprawdzenia typu zmiennych:
+
+console.log(typeof(str1));
+console.log(typeof(val1));
+
+Wyniki zależą od zadeklarowanych zmiennych.
+
+
+
+
+
+
+Rozdział 3: Wiele wartości w JavaScripcie
+
+Ćwiczenia praktyczne:
+
+Tworzenie tablicy:
+
+const arr = [1, 2, 3];
+console.log(arr);
+
+Wynik: [1, 2, 3].
+
+
+
+
+
+
+Rozdział 4: Konstrukcje logiczne
+
+Projekt rozdziału:
+
+Gra w "kamień, papier, nożyce":
+
+const options = ["kamień", "papier", "nożyce"];
+let player = Math.floor(Math.random() * 3);
+let computer = Math.floor(Math.random() * 3);
+console.log(`Gracz: ${options[player]} vs Komputer: ${options[computer]}`);
+
+Wyniki zależne od losowego wyboru.
+
+
+Sprawdzian umiejętności:
+
+1. Rozwiązanie z switch:
+
+
+
+switch (grade) {
+  case "A": console.log("Świetnie!"); break;
+  case "F": console.log("Sprawdzian niezaliczony!"); break;
+}
+
+Wynik: Zależny od zmiennej grade.
+
+
+
+
+
+
