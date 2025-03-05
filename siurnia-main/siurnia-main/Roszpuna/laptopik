@@ -1,0 +1,40 @@
+Ćwiczenie praktyczne 6.1
+
+1. Utwórz funkcję pobierającą dwa parametry, dodającą ich wartości i wyświetlającą wynik.
+2. Zdefiniuj dwie różne zmienne z odmiennymi wartościami.
+3. Użyj tej funkcji w dwóch zmiennych i za pomocą console.log() wyświetl wynik jej działania.
+4. Utwórz drugie wywołanie funkcji, wykorzystując dwie kolejne liczby jako argumenty.
+
+Kod JavaScript:
+
+function addTwoNumbers(a, b) {
+    console.log(a + b);
+}
+
+let num1 = 5;
+let num2 = 10;
+
+addTwoNumbers(num1, num2);
+addTwoNumbers(8, 12);
+
+
+Ćwiczenie praktyczne 6.2
+
+1. Zdefiniuj tablicę opisowych słów.
+2. Utwórz funkcję, która prosi użytkownika o podanie imienia.
+3. Za pomocą Math.random() pobierz z tej tablicy losowo wybraną wartość.
+4. W konsoli wyświetl imię podane przez użytkownika i losowo wybraną wartość z tablicy.
+5. Wywołaj funkcję.
+
+Kod JavaScript:
+
+const descriptions = ["mądry", "wesoły", "pracowity", "pomysłowy", "energiczny"];
+
+function describeUser() {
+    let name = prompt("Podaj swoje imię:");
+    let randomIndex = Math.floor(Math.random() * descriptions.length);
+    let randomDescription = descriptions[randomIndex];
+    console.log(name + " jest " + randomDescription);
+}
+
+describeUser();
